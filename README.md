@@ -24,10 +24,6 @@ During analysis of the Enhanced Wi-Fi pairing process, a static pairing byte seq
 
 ## Usage
 
-```bash
-./exploit
-```
-
 ```
 $ ./exploit
 /*******************************************************
