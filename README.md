@@ -46,7 +46,7 @@ Press ENTER to launch attack (send 10000 frames on mon0)...
 
 ## Video
 
-[![Demo](https://img.youtube.com/vi/3rH0AUkt96E/hqdefault.jpg)](https://www.youtube.com/embed/3rH0AUkt96E)
+[![Demo](2.jpg)](https://www.youtube.com/embed/3rH0AUkt96E)
 
 ## Legal & Ethical Notice
 This project is provided strictly for __educational and defensive security research purposes__.
