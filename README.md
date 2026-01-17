@@ -45,7 +45,7 @@ Press ENTER to launch attack (send 10000 frames on mon0)...
 ```
 
 ## Video
-[![Demo](https://img.youtube.com/vi/3rH0AUkt96E/0.jpg)](https://www.youtube.com/watch?v=3rH0AUkt96E)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3rH0AUkt96E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Legal & Ethical Notice
 This project is provided strictly for __educational and defensive security research purposes__.
